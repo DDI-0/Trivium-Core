@@ -1,6 +1,6 @@
 # FPGA-Based Stream Cipher Implementation
 
-A cryptographically secure hardware implementation of the Trivium stream cipher algorithm built on an FPGA platform, integrating with a True Random Number Generator (TRNG).
+A cryptographically secure hardware implementation of the Trivium stream cipher algorithm built on an FPGA, integrating with a True Random Number Generator (TRNG).
 
 ## Overview
 
@@ -8,7 +8,6 @@ This project implements a complete stream cipher solution using:
 - A hardware-based True Random Number Generator (TRNG) utilizing FPGA process variations
 - Trivium stream cipher core with Avalon interface integration
 - Linux kernel module for device interaction
-- User-space applications for encryption/decryption operations
 
 ## Architecture
 
