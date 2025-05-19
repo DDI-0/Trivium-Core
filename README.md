@@ -11,8 +11,6 @@ This project implements a complete stream cipher solution using:
 
 ## Architecture
 
-![System Architecture](images/system_architecture.png)
-
 The system consists of these main components:
 
 1. **TRNG Module** - Generates truly random bits based on physical characteristics of the FPGA
@@ -23,7 +21,7 @@ The system consists of these main components:
 
 ## Trivium Algorithm
 
-![Trivium Algorithm](images/trivium_algorithm.png)
+<img width="831" alt="Screenshot 2025-05-18 at 10 57 39 PM" src="https://github.com/user-attachments/assets/4ef90364-4aa7-43c3-aea3-30e49f747669" />
 
 The Trivium cipher uses three coupled non-linear feedback shift registers to generate pseudorandom bits. It is initialized with:
 - 80-bit key (loaded into shift register B)
